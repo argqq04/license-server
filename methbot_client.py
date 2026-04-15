@@ -20,7 +20,7 @@ ctk.set_default_color_theme("dark-blue")
 pyautogui.FAILSAFE = True
 pydirectinput.PAUSE = 0.05
 
-SERVER_URL = "http://IP_SERVER_TAU:5055"
+SERVER_URL = "https://web-production-f9ee0.up.railway.app"
 KEY_FILE = os.path.join(os.getenv("APPDATA"), "zahar_license.json")
 
 def get_hwid():
