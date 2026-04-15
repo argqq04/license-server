@@ -4,7 +4,7 @@ import sqlite3, secrets, string
 
 app = Flask(__name__)
 DB = "keys.db"
-SECRET = "parola_ta_secreta"  # schimba asta
+SECRET = "abcd1234"  # schimba asta
 
 def get_db():
     conn = sqlite3.connect(DB)
